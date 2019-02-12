@@ -6,7 +6,7 @@ This boilerplate has following stack:
 - For linting: Eslint with Airbnb rules
 
 I have  not run this boilerplate for ios but it should run with some minor modifications. 
-# MOBILE APP SETUP IN YOUR FRESH MACHINE
+# If you have not setup your machine for react-native
 
 - Go to the react native docs and go to getting started(https://facebook.github.io/react-native/docs/getting-started)
 - And select "Building Projects with Native Code" Tab and follow all steps for your os
