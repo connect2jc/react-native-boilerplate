@@ -16,10 +16,8 @@
 - 3) Else try running these commands first:
     - npm run android-devices
     - npm run android-dev
-- 4) If this is your error while running on android "Could not compile settings file 'react-native-boilerplate\SAMPLE_APP\android\settings.gradle'.
-> startup failed: settings file 'react-native-boilerplate\SAMPLE_APP\android\settings.gradle': 3: unexpected char: '\' @ line 3, column 133.
-     s\react-native-gesture-handler\android')"
-     - then open your settings.gradle file (located in android directory) and replace this line "project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '..\node_modules\react-native-gesture-handler\android')" with project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+- 4) If this is your error while running on android "Could not compile settings file 'react-native-boilerplate\SAMPLE_APP\android\settings.gradle'.startup failed: settings file 'react-native-boilerplate\SAMPLE_APP\android\settings.gradle': 3: unexpected char: '\' @ line 3, column 133.s\react-native-gesture-handler\android')"
+  - then open your settings.gradle file (located in android directory) and replace this line "project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '..\node_modules\react-native-gesture-handler\android')" with project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
 
 # SETUP UI Library:
 - Not sure if "npm I" would work to setup ui library. So here is what I did. 
