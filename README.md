@@ -3,6 +3,7 @@ This boilerplate has following stack:
 - For UI library: native-ui
 - For Testing: Jest and enzyme
 - For state management: react-redux
+- For linting: Eslint with Airbnb rules
 
 I have  not run this boilerplate for ios but it should run with some minor modifications. 
 # MOBILE APP SETUP IN YOUR FRESH MACHINE
