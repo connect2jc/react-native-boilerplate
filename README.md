@@ -1,3 +1,10 @@
+This boilerplate has following stack:
+- For navigation : react-navigation
+- For UI library: native-ui
+- For Testing: Jest and enzyme
+- For state management: react-redux
+
+I have  not run this boilerplate for ios but it should run with some minor modifications. 
 # MOBILE APP SETUP IN YOUR FRESH MACHINE
 
 - Go to the react native docs and go to getting started(https://facebook.github.io/react-native/docs/getting-started)
